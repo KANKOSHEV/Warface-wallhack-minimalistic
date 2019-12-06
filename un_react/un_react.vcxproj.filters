@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{eab92303-e1b3-492f-8923-8bd6d7e026cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{03d68d6d-057c-4b37-b0bb-e823511de7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{c1a78440-608d-42f8-9ddd-cf28f3ca80a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minicrt">
+      <UniqueIdentifier>{3ccb381a-f77a-4052-9bbb-0f242ff84b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="importer">
+      <UniqueIdentifier>{a3c4401d-09f3-4c4e-8a29-116522f1bf75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xor">
+      <UniqueIdentifier>{6623b9dd-22c7-4b37-848b-bb0d3419b113}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hook\hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_classes.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_defines.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_reversing.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cry_reversing_tools.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx\stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="minicrt\mincrt.h">
+      <Filter>minicrt</Filter>
+    </ClInclude>
+    <ClInclude Include="importer\lazy_importer.h">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xor_string.h">
+      <Filter>xor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="minicrt\mincrt.cpp">
+      <Filter>minicrt</Filter>
+    </ClCompile>
+    <ClCompile Include="entry_point.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
