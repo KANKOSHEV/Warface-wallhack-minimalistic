@@ -5,12 +5,12 @@
 #include "..\importer\lazy_importer.h"
 #include "..\xor\xor_string.h"
 ///////////////////////////////////////
-#define j_malloc                ((void*(*)(size_t))0x141628DE5) 
-#define j_free                  ((void*(*)(void*))0x141628DDF) 
-#define j_memcpy                ((void*(*)(void*, void const*, size_t))0x141628CD1) 
-#define j_memset                ((void*(*)(void*, int, size_t))0x141628CDD) 
+#define j_malloc                ((void*(*)(size_t))0x14162CF25) 
+#define j_free                  ((void*(*)(void*))0x14162CF1F) 
+#define j_memcpy                ((void*(*)(void*, void const*, size_t))0x14162CE11) 
+#define j_memset                ((void*(*)(void*, int, size_t))0x14162CE1D) 
 #define zero_memory(dst, size)  j_memset(dst, 0, size) 
-#define j_get_async_key_state   ((int(*)(int))0x1400AC150) // j_GetAsyncKeyState
+#define j_get_async_key_state   ((int(*)(int))0x1400AC110) // j_GetAsyncKeyState
 /////////////////////////////////////// 
 void* __cdecl operator new(size_t size)
 {
