@@ -3,8 +3,8 @@
 
 enum game_data : __int64
 {
-	a_system_global             = 0x141C140F0,
-	a_gameframework             = 0x141F221F0,
+	a_system_global             = 0x141C19150,
+	a_gameframework             = 0x141F27220,
 	o_entity_system             = 0xD8,
 	o_system                    = 0xE8
 };
